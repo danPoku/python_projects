@@ -14,3 +14,8 @@ This updated version solves the problem.
 
 ### Run code as administrator - run_as_admin()
 In the original script, you may encounter a permission error when blocking a website. This occurs because the script does not have administrator privileges to write to the hosts system file. The run_as_admin() function added to the script checks if the script is being executed with admin privileges. If not, it will prompt with the User Account Control dialogue box to give admininstrator privileges to run the script.
+- for the `run_as_admin()` function to run import the following:
+```python
+import sys
+import ctypes
+```

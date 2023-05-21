@@ -1,7 +1,8 @@
 #importing required liberary
 import sys
-from tkinter import *
 import ctypes
+from tkinter import *
+
 
 #creating a window
 window = Tk()
